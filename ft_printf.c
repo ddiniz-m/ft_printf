@@ -6,7 +6,7 @@
 /*   By: ddiniz-m <ddiniz-m@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/14 11:47:19 by ddiniz-m          #+#    #+#             */
-/*   Updated: 2022/11/16 12:53:35 by ddiniz-m         ###   ########.fr       */
+/*   Updated: 2022/12/01 18:43:34 by ddiniz-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,13 +37,13 @@ int	ft_printf(const char *str, ...)
 	return (count);
 }
 
-/* int	main(void)
+int	main(void)
 {
 	int i;
 	int j;
 
-	i =ft_printf("Mine:(%s %i %x %X %p %c)\n", "Hello", 42, 42, 42, "42", 'z');
-	j = printf("Orig:(%s %i %x %X %p %c)\n", "Hello", 42, 42, 42, "42", 'z');
-	printf("\nMine: %i\n",j);
-	printf("Orig: %i\n",i);
-}  */
+	i = ft_printf("Mine:(%s %i %x %X %p %c)\n", "Hello", 42, 42, 42, NULL, 'z');
+	j = printf("Orig:(%s %i %x %X %p %c)\n", "Hello", 42, 42, 42, NULL, 'z');
+	printf("\nMine: %i\n",i);
+	printf("Orig: %i\n",j);
+} 
